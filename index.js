@@ -1,6 +1,6 @@
 #! /usr/bin/env node
 
-const program = require('commander')
+const { program } = require('commander')
 const download = require('download-git-repo')
 
 program.version('1.0.0', '-v --version')
@@ -13,3 +13,16 @@ program.version('1.0.0', '-v --version')
   })
 
 program.parse(process.argv)
+
+// const inquirer = require('inquirer')
+
+// inquirer.prompt([
+//   {
+//     type: 'String',
+//     name: 'test',
+//     message: 'Are you handsome?',
+//     default: true
+//   }
+// ]).then(answers => {z
+//   console.log('结果为：',answers)
+// })
