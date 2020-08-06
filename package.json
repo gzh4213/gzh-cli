@@ -1,10 +1,10 @@
 {
   "name": "gzh-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "脚手架工具开发学习",
   "main": "index.js",
   "bin": {
-    "gzh-cli": "index.js"
+    "gzh-cli": "bin/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
