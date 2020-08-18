@@ -1,6 +1,6 @@
 {
   "name": "gzh-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "脚手架工具开发学习",
   "main": "index.js",
   "bin": {
